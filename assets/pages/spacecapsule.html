@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+    rel="stylesheet">  
+    <script src="/assets/index.js" defer></script>
+    
+</head>
+<body class="crew">
+      <header class="primary-header flex">
+        <div>
+            <img src="/assets/img/HeaderLogo.png" alt="space tourism logo" class="logo">
+        </div>
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only" aria-expanded="false">Menü</span></button> 
+          <nav>
+                <ul id="primary-navigation" data-visible="false" class="primary-navigation underline-indicators flex">
+                    <li class="active"><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="/index.html"><span aria-hidden="true">00</span>Home</a>
+                    <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="/assets/pages/mars.html"><span span aria-hidden="true">01</span>Destination</a>
+                    <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="/assets/pages/leader.html"><span span aria-hidden="true">02</span>Crew</a>
+                    <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="/assets/pages/Vehicle.html"><span span aria-hidden="true">03</span>Technology</a>
+                </ul>
+          </nav>
+      </header> 
+      <main  id="main" class="grid-container grid-container-vehicle flow">
+        <h1 class="numbered-title"><span aria-hidden="true">03</span>SPACE LAUNCH 101</h1>
+
+        <div class=" numbers flex">
+            <a href="/assets/pages/Vehicle.html" aria-selected="true"> 1</a>
+            <a href="/assets/pages/spaceport.html" aria-selected="false">2</a>
+            <a href="/assets/pages/spacecapsule.html" aria-selected="false">3</a>
+        </div>
+        <article class=" Vehicle-details flow">
+            
+            <header class="flow flow-space--small" >
+                <h2 class="fs-600 ff-serif uppercase">THE TERMINOLOGY…</h2>
+                <p class="fs-700 uppercase ff-serif">SPACE CAPSULE</p>
+            </header>
+            <p>
+                 A space capsule is
+                 an often-crewed spacecraft that uses a 
+                 blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll
+                  spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained. 
+            </p>
+        </article>
+        
+        <img src="/assets/img/Space Capsule.png" alt="">
+    </main>
+</body>
+</html>

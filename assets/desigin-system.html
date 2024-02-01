@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../index.css">
+
+</head>
+<body>
+    <section>
+        <!-- navigation -->
+        <div>
+            <nav>
+                <ul class="primary-navigation underline flex">
+                    <li class="active"><a class="uppercase text-white letter-spacing-2" 
+                        href="#"><span>01</span>Active</a></li>
+                    <li><a class="uppercase text-white letter-spacing-2" 
+                        href="#"><span>02</span>Hovered</a></li>
+                    <li><a class="uppercase text-white letter-spacing-2" 
+                        href="#"><span>03</span>Idle</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="flex">
+            <div style="margin-top: 5rem; margin-left: 2rem;">
+             <a href="#" class="large-button uppercase ff-serif text-dark bg-white fs-600">Explorea</a>
+            </div>
+     
+            <div class="flow" style="margin-bottom: 50vh; --flow-space: 4rem">
+                <div class="tab-list underline-indicators flex">
+                    <button aria-selected="true" class=" uppercase text-accent ff-sans-cond bg-dark letter-spacing-2"
+                    >Moon</button>
+                    <button aria-selected="false" class="uppercase text-accent ff-sans-cond bg-dark letter-spacing-2"
+                     >Mars</button>
+                    <button aria-selected="false" class="uppercase text-accent ff-sans-cond bg-dark letter-spacing-2" 
+                    >Europa</button>
+                </div>
+
+                <div class=" dot-indicators flex" style="margin-top: 2rem;">
+                    <button aria-selected="true"> <span class="sr-only">slider Title</span></button>
+                    <button aria-selected="false"><span class="sr-only">slider Title</span></button>
+                    <button aria-selected="false"><span class="sr-only">slider Title</span></button>
+                </div>
+                <!-- Numbers -->
+                <div class="numbers flex "style="margin-top: 2rem; --numbers-space: 4rem">
+                    <button aria-selected="true"> 1</button>
+                    <button aria-selected="false">2</button>
+                    <button aria-selected="false">3</button>
+                </div>
+            </div>
+         </div>
+    </section>
+</body>
+</html>
